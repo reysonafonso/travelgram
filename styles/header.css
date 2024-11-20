@@ -1,12 +1,13 @@
 header {
     padding-block: 32px;
-}
 
+}
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font: var(--text-md);
 }
 
 
@@ -23,10 +24,6 @@ header .container {
     font: var(--text-lg);
     color: var(--text-color-primary);
     margin-bottom: 8px;
-}
-
-#profile p {
-    font: var(--text-md);
 }
 
 #info { 
